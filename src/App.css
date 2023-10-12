@@ -11,7 +11,7 @@
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
-    background-image: url(public/pexels-james-wheeler-1542493.jpg);
+    background-image: url(/public/pexels-james-wheeler-1542493.jpg);
     background-position: center;
     background-size: cover;
     color: white;
@@ -34,23 +34,23 @@
     margin: 0;
   }
   #day{
-    font-size: 6em;
+    font-size: 3em;
     margin: 0;
   }
   #month{
-    font-size: 10em;
+    font-size: 6em;
     margin: 0;
   }
   .text{
     grid-area: text;
-    font-size: 6vw;
+    font-size: 1.5em;
   }
   #btn{
     width: 90%;
     height: 60%;
     border-radius: 20px;
     text-align: center;
-    font-size: 4vw;
+    font-size: 1.5em;
   }
   #btn:hover{
     background-color: #a0a0a0;
