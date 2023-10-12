@@ -1,6 +1,10 @@
 
 
 @media (max-width: 912px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
   #root {
     max-width: 100vw;
     max-height: 100vh;
@@ -30,11 +34,11 @@
     margin: 0;
   }
   #day{
-    font-size: 8vw;
+    font-size: 6em;
     margin: 0;
   }
   #month{
-    font-size: 15vw;
+    font-size: 10em;
     margin: 0;
   }
   .text{
@@ -53,6 +57,10 @@
   }
 }
 @media (min-width: 913px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
   #root {
     width: 100vw;
     height: 100vh;
@@ -81,7 +89,7 @@
     width: 50%;
     height: 70%;
     grid-area: text;
-    font-size: 2vw;
+    font-size: 2em;
     color: white;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
     padding: 20px 50px;
@@ -95,15 +103,15 @@
   
   }
   #day{
-    font-size: 6vw;
+    font-size: 6em;
     margin: 10px;
   }
   #month{
-    font-size: 13vw;
+    font-size: 13em;
     margin: 10px;
   }
   #btn{
-    font-size: 1vw;
+    font-size: 1em;
     grid-area: button;
     width: 40%;
     height: 12%;
